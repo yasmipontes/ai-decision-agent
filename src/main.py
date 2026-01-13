@@ -3,7 +3,8 @@ from langchain.agents import initialize_agent, AgentType
 from langchain_openai import ChatOpenAI
 from tools import calculadora_simples, contador_de_caracteres
 
-# os.environ["OPENAI_API_KEY"] = "SUA_KEY_AQUI" # Configure se for rodar
+#configuração da OpenIa
+# os.environ["OPENAI_API_KEY"] = "SUA_KEY_AQUI" # Configurar isso para rodar
 
 def main():
     print("--- Iniciando Agente Inteligente ---")
